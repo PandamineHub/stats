@@ -1,0 +1,103 @@
+/**********************Tag *********************/
+
+body {
+    background-color: #f4f3f3;
+    margin: 0;
+}
+
+
+/*****************Class*********/
+
+.one {
+    background-color:white;
+    border-style: dashed none none;
+    width: 99%;
+    border-width: 1px;
+}
+.two {
+    background-color:white;
+    border-style: dashed none none;
+    width: 99%;
+    border-width: 1px;
+
+}
+.head-container {
+    background-color: #dfdfdf;
+
+}
+
+.header {
+    padding: 0px 0px 0px 20px;
+}
+.image1 {
+    position: relative;
+    left: 10px;
+}
+.block-one{
+    height: 300px;
+    width: 33.3%;
+    position: relative;
+    background-color: white;
+    display: inline-block;
+}
+.block-two{
+    height: 300px;
+    width: 33.3%;
+    background-color: blanchedalmond;
+    position: absolute;
+    display: inline-block;
+    margin-left: 0px;
+}
+.block-three{
+    height: 300px;
+    width: 33.3%;
+    background-color: aquamarine;
+    position: absolute;
+    display: inline-block;
+    margin-left: 33.3%;
+}
+.btc{
+position: absolute;
+left: 20px;
+top: 20%;
+}
+.eth{
+    position: absolute;
+    left: 25px;
+    top: 45%;
+    }
+.zen{
+    position: absolute;
+    left: 20px;
+    top: 75%;
+    }
+.table-one{
+    margin: 0 0 0 0;
+    width: 100%;
+}
+.text-one{
+    padding: 2% 5% 0 2%;
+    position: relative;
+}
+.text-two{
+    padding: 7% 5% 0 2%;
+    position: relative;
+}
+.text-three{
+    padding: 11% 5% 0 2%;
+    position: relative;
+}
+.v1{
+    left: 18%;
+    height: 200px;
+    border-left: 1px dashed black;
+    position: absolute;
+    top: 70px;
+    margin: 0 0 0 0;
+
+}
+.table-two{
+    width: 100%;
+    position: absolute;
+    margin: 30px;
+}
