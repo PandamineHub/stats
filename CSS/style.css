@@ -1,7 +1,7 @@
 /**********************Tag *********************/
 
 body {
-    background-color: #f4f3f3;
+    background-color: #fdfdfd;
     margin: 0;
 }
 
@@ -22,8 +22,7 @@ body {
 
 }
 .head-container {
-    background-color: #dfdfdf;
-
+    background-color: white;
 }
 
 .header {
@@ -33,44 +32,80 @@ body {
     position: relative;
     left: 10px;
 }
-.block-one{
-    height: 300px;
+.head-under1{
     width: 33.3%;
     position: relative;
-    background-color: white;
     display: inline-block;
+    margin: 0px;
+    background-color: #a3e0dc;
+    border: 0;
+    align: center;
+    border-spacing: 0px;
+    border-collapse: collapse;
+
+}
+.head-under2{
+    width: 33.3%;
+    position: relative;
+    display: inline-block;
+    margin-left: -4px;
+    background-color: #a3e0dc;
+}
+.head-under3{
+    width: 33.3%;
+    position: absolute;
+    display: inline-block;
+    margin-left: -4px;
+    background-color: #a3e0dc;
+}
+.block-one{
+    height: 400px;
+    width: 33.3%;
+    position: relative;
+    background-color: #ffffff;
+    display: inline-block;
+    margin-top: -5px;
+    border-collapse: collapse;
+    border-spacing: 0px;
 }
 .block-two{
-    height: 300px;
+    height: 400px;
     width: 33.3%;
-    background-color: blanchedalmond;
+    background-color: #ececec;
     position: absolute;
     display: inline-block;
     margin-left: 0px;
+    margin-top: -5px;
 }
 .block-three{
-    height: 300px;
+    height: 400px;
     width: 33.3%;
-    background-color: aquamarine;
+    background-color: #dddddd;
     position: absolute;
     display: inline-block;
     margin-left: 33.3%;
+    margin-top: -5px;
 }
 .btc{
 position: absolute;
 left: 20px;
-top: 20%;
+top: 14%;
 }
 .eth{
     position: absolute;
     left: 25px;
-    top: 45%;
+    top: 33%;
     }
 .zen{
     position: absolute;
     left: 20px;
-    top: 75%;
+    top: 55%;
     }
+.clo{
+        position: absolute;
+        left: 20px;
+        top: 75%;
+        }
 .table-one{
     margin: 0 0 0 0;
     width: 100%;
@@ -87,9 +122,13 @@ top: 20%;
     padding: 11% 5% 0 2%;
     position: relative;
 }
+.text-four{
+    padding: 8% 5% 0 2%;
+    position: relative;
+}
 .v1{
     left: 18%;
-    height: 200px;
+    height: 300px;
     border-left: 1px dashed black;
     position: absolute;
     top: 70px;
@@ -100,4 +139,11 @@ top: 20%;
     width: 100%;
     position: absolute;
     margin: 30px;
+}
+.underheader{
+    margin: 0 0 0 0;
+    width: 100%;
+}
+.under-one{
+    text-align: center;
 }
