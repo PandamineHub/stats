@@ -1,7 +1,7 @@
 //coinmarketcap 100     https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_PRO_API_KEY=83e03939-2caf-4cd6-bbfb-6c155ef106c7&start=1&limit=800    
 {
     var xmlhttp = new XMLHttpRequest(); 
-    var url = "https://api.coinmarketcap.com/v2/ticker/?start=1&limit=100";
+    var url = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_PRO_API_KEY=83e03939-2caf-4cd6-bbfb-6c155ef106c7";
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4  &&  this.status == 200) {
             var json = JSON.parse(this.responseText);
